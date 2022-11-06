@@ -20,3 +20,23 @@ pub fn binary_search(nums: Vec<i32>, target: i32) -> i32 {
 
     res
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn binary_search_should_find() {
+        assert_eq!(binary_search(vec![-1,0,3,5,9,12], 9), 4);
+    }
+
+    #[test]
+    fn binary_search_should_not_find_1() {
+        assert_eq!(binary_search(vec![-1,0,3,5,9,12], 2), -1);
+    }
+
+    #[test]
+    fn binary_search_shoud_not_find_2() {
+        assert_eq!(binary_search(vec![5], -5), -1);
+    }
+}
