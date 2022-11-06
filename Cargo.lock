@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "rustdna"
+name = "rust_dna"
 version = "0.1.0"
