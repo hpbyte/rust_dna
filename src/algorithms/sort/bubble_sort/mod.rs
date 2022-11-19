@@ -23,12 +23,12 @@ pub fn bubble_sort(nums: &mut Vec<i32>) {
 
 #[cfg(test)]
 mod tests {
-    use crate::algorithms::sort::is_sorted;
     use super::*;
+    use crate::algorithms::sort::is_sorted;
 
     #[test]
     fn should_sort_correctly() {
-        let mut nums = vec![8,4,5,9,3,0,7,2,1,6];
+        let mut nums = vec![8, 4, 5, 9, 3, 0, 7, 2, 1, 6];
         bubble_sort(&mut nums);
         assert!(is_sorted(&nums));
     }
