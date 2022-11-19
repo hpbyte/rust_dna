@@ -21,6 +21,7 @@ cargo test
 ## Implemented Algorithms
 
 ### Search
+
 - Binary Search
 
 ### Sorting
@@ -31,8 +32,9 @@ cargo test
 ## Implemented Problems
 
 - Fibonacci number
-- Is Subsequence
-- Two Sum
+- Find pivot index
+- Is subsequence
+- Two sum
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
