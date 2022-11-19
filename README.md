@@ -20,7 +20,18 @@ cargo test
 
 ## Implemented Algorithms
 
+### Search
 - Binary Search
+
+### Sorting
+
+- Bubble Sort
+- Insertion Sort
+
+## Implemented Problems
+
+- Two Sum
+- Fibonacci number
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
